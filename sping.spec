@@ -7,7 +7,7 @@ Group:		Networking/Admin
 License:	BSD
 Source0:	http://box3n.gumbynet.org/~fyre/software/%{name}-%{version}.tar.gz
 # Source0-md5:	72f6b121da1850845a2d88d695bf20ec
-URL:		http://box3n.gumbynet.org/~fyre/software
+URL:		http://box3n.gumbynet.org/~fyre/software/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
