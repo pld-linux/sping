@@ -4,8 +4,6 @@ Name:		sping
 Version:	1.2
 Release:	2
 Group:		Networking/Admin
-Group(de):	Netzwerkwesen/Administration
-Group(pl):	Sieciowe/Administracyjne
 License:	BSD
 Source0:	http://box3n.gumbynet.org/~fyre/software/%{name}-%{version}.tar.gz
 URL:		http://box3n.gumbynet.org/~fyre/software
