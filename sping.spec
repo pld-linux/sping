@@ -42,7 +42,7 @@ install ping.8 $RPM_BUILD_ROOT%{_mandir}/man8/sping.8
 %clean
 rm -rf $RPM_BUILD_ROOT
 
-%files -f %{name}.lang
+%files
 %defattr(644,root,root,755)
 %attr(4750,root,icmp) %{_sbindir}/*
 %{_mandir}/man*/*
@@ -52,7 +52,10 @@ rm -rf $RPM_BUILD_ROOT
 All persons listed below can be reached at <cvs_login>@pld.org.pl
 
 $Log: sping.spec,v $
-Revision 1.2  2001-01-12 07:48:53  zagrodzki
+Revision 1.3  2001-01-12 07:49:25  zagrodzki
+- fixed %files
+
+Revision 1.2  2001/01/12 07:48:53  zagrodzki
 - fixed filenames
 
 Revision 1.1  2001/01/11 11:17:53  zagrodzki
