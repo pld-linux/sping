@@ -21,7 +21,7 @@ etc.), for both security and bandwidth reasons.
 sping wysy³a ¿±dania ICMP ECHO do hostów w sieci, ¿eby sprawdziæ czy
 ¿yj±. Jest ma³± i, miejmy nadziejê, bezpieczn± implementacj± znanego
 narzêdzia "ping", która oferuje du¿o mniejsz± kontrolê nad
-w³asciwo¶ciami pakietu które mo¿na ustawiæ (rozmiar pakietu, przerwy
+w³a¶ciwo¶ciami pakietu które mo¿na ustawiæ (rozmiar pakietu, przerwy
 miedzy pakietami itp.), ze wzglêdu zarówno na bezpieczeñstwo jak i na
 stopieñ obci±¿enia ³±cza.
 
