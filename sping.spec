@@ -2,7 +2,7 @@ Summary:	Small ping
 Summary(pl):	Ma³y ping
 Name:		sping
 Version:	1.2
-Release:	1
+Release:	2
 Group:		Networking/Admin
 Group(de):	Netzwerkwesen/Administration
 Group(pl):	Sieciowe/Administracyjne
@@ -45,5 +45,5 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%attr(4750,root,icmp) %{_sbindir}/*
+%attr(4750,root,adm) %{_sbindir}/*
 %{_mandir}/man*/*
