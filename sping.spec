@@ -36,8 +36,8 @@ rm -rf $RPM_BUILD_ROOT
 
 install -d $RPM_BUILD_ROOT{%{_sbindir},%{_mandir}/man8}
 
-install sping $RPM_BUILD_ROOT%{_sbindir}
-install sping.8 $RPM_BUILD_ROOT%{_mandir}/man8
+install ping $RPM_BUILD_ROOT%{_sbindir}/sping
+install ping.8 $RPM_BUILD_ROOT%{_mandir}/man8/sping.8
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -52,5 +52,8 @@ rm -rf $RPM_BUILD_ROOT
 All persons listed below can be reached at <cvs_login>@pld.org.pl
 
 $Log: sping.spec,v $
-Revision 1.1  2001-01-11 11:17:53  zagrodzki
+Revision 1.2  2001-01-12 07:48:53  zagrodzki
+- fixed filenames
+
+Revision 1.1  2001/01/11 11:17:53  zagrodzki
 - initial release
