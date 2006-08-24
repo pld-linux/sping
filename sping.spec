@@ -29,7 +29,9 @@ stopieñ obci±¿enia ³±cza.
 %setup -q
 
 %build
-%{__make} CFLAGS="%{rpmcflags}"
+%{__make} \
+	CC="%{__cc}" \
+	CFLAGS="%{rpmcflags}"
 
 %install
 rm -rf $RPM_BUILD_ROOT
@@ -44,5 +46,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
+%doc README
 %attr(4750,root,adm) %{_sbindir}/*
 %{_mandir}/man*/*
