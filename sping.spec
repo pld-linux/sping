@@ -1,5 +1,5 @@
 Summary:	Small ping
-Summary(pl):	Ma³y ping
+Summary(pl.UTF-8):   MaÅ‚y ping
 Name:		sping
 Version:	1.2
 Release:	2
@@ -17,13 +17,13 @@ the common ping utility that offers far less control over the packet
 options that may be specified (packet size, delay between packets,
 etc.), for both security and bandwidth reasons.
 
-%description -l pl
-sping wysy³a ¿±dania ICMP ECHO do hostów w sieci, ¿eby sprawdziæ czy
-¿yj±. Jest ma³± i, miejmy nadziejê, bezpieczn± implementacj± znanego
-narzêdzia "ping", która oferuje du¿o mniejsz± kontrolê nad
-w³a¶ciwo¶ciami pakietu które mo¿na ustawiæ (rozmiar pakietu, przerwy
-miedzy pakietami itp.), ze wzglêdu zarówno na bezpieczeñstwo jak i na
-stopieñ obci±¿enia ³±cza.
+%description -l pl.UTF-8
+sping wysyÅ‚a Å¼Ä…dania ICMP ECHO do hostÃ³w w sieci, Å¼eby sprawdziÄ‡ czy
+Å¼yjÄ…. Jest maÅ‚Ä… i, miejmy nadziejÄ™, bezpiecznÄ… implementacjÄ… znanego
+narzÄ™dzia "ping", ktÃ³ra oferuje duÅ¼o mniejszÄ… kontrolÄ™ nad
+wÅ‚aÅ›ciwoÅ›ciami pakietu ktÃ³re moÅ¼na ustawiÄ‡ (rozmiar pakietu, przerwy
+miedzy pakietami itp.), ze wzglÄ™du zarÃ³wno na bezpieczeÅ„stwo jak i na
+stopieÅ„ obciÄ…Å¼enia Å‚Ä…cza.
 
 %prep
 %setup -q
