@@ -1,5 +1,5 @@
 Summary:	Small ping
-Summary(pl.UTF-8):   Mały ping
+Summary(pl.UTF-8):	Mały ping
 Name:		sping
 Version:	1.2
 Release:	2
